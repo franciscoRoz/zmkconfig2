@@ -54,20 +54,3 @@
                 };
         };
 };
-
-
-### Keyboard name
-# 1 nice
-CONFIG_ZMK_KEYBOARD_NAME="nice corne"
-
-
-### Boost Bluetooth TX power, also make Bluetooth stronger
-CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
-# Tune bluetooth profiles for quick select
-CONFIG_BT_MAX_CONN=3
-
-### POWER OPTIONS
-CONFIG_ZMK_EXT_POWER=y
-CONFIG_ZMK_SLEEP=y
-# 2 puchi 3 min (3*60*1000ms)
-CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=250000
