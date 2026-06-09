@@ -17,8 +17,9 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-include: 
-  - board: nice_nano_v2
+include:
+  - board: promicro_nrf52840
     shield: corne_left
-  - board: nice_nano_v2
+
+  - board: promicro_nrf52840
     shield: corne_right
